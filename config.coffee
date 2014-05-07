@@ -2,11 +2,13 @@ APP_NAME = 'app'
 
 BOWER_COMPONENTS =
 	'ionic': '1.0.0-beta.3':
-		scripts: 'release/js/ionic.bundle.min.js'
-		styles: 'release/css/ionic.min.css'
+		scripts: 'release/js/ionic.bundle.js'
+		styles: 'release/css/ionic.css'
+		fonts: 'release/fonts/**/*.{eot,svg,ttf,woff}'
+
 
 SCRIPTS = [
-	'**/ionic.bundle.min.js'
+	'**/ionic.bundle.js'
 	'app/app.js'
 	'**/*.js'
 ]
